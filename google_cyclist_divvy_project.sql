@@ -1,3 +1,17 @@
+/*
+This is the SQL script used to import, compile and analyse the Cyclistic Case 
+Study for the Capstone Project of the Google Data Analytics Professional Certificate.
+
+The database used is MYSQL Database.
+The steps followed:
+1. Download the individual CSV documents
+2. Import each into separate tables, regularising data types
+3. Combine all the data into one table
+4. Inspect data for anomalies
+5. Identify and exclude data with anomalies
+6. Create queries for data visualisations
+The code below starts at step 3.
+*/
 SELECT count(*) FROM divvy_tripdata.divvy_tripdata;
 
 
